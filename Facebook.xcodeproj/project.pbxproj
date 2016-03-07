@@ -12,6 +12,19 @@
 		3E47B5B51C66B7460056E639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E47B5B31C66B7460056E639 /* Main.storyboard */; };
 		3E47B5B71C66B7460056E639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E47B5B61C66B7460056E639 /* Assets.xcassets */; };
 		3E47B5BA1C66B7460056E639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E47B5B81C66B7460056E639 /* LaunchScreen.storyboard */; };
+		3E47B5C21C66BC770056E639 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47B5C11C66BC770056E639 /* FeedViewController.swift */; };
+		3E47B5C51C66BC950056E639 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47B5C41C66BC950056E639 /* RequestsViewController.swift */; };
+		3E47B5C71C66BCA10056E639 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47B5C61C66BCA10056E639 /* MessagesViewController.swift */; };
+		3E47B5C91C66BCAB0056E639 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47B5C81C66BCAB0056E639 /* NotificationsViewController.swift */; };
+		3E47B5CB1C66BCB50056E639 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47B5CA1C66BCB50056E639 /* SettingsViewController.swift */; };
+		3E623A8F1C8BAD70002ED8C1 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E623A8E1C8BAD70002ED8C1 /* PhotoViewController.swift */; };
+		3E623A921C8BC195002ED8C1 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E623A901C8BC195002ED8C1 /* BaseTransition.swift */; };
+		3E623A931C8BC195002ED8C1 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E623A911C8BC195002ED8C1 /* FadeTransition.swift */; };
+		3E623A951C8D4506002ED8C1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E623A941C8D4506002ED8C1 /* Common.swift */; };
+		3EC3248A1C66C4FA001A631C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC324891C66C4FA001A631C /* DetailViewController.swift */; };
+		3EC3248C1C66E114001A631C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3248B1C66E114001A631C /* StatusViewController.swift */; };
+		3EC3248E1C66E11F001A631C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3248D1C66E11F001A631C /* PhotosViewController.swift */; };
+		3EC324901C66E128001A631C /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3248F1C66E128001A631C /* CheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		3E47B5B61C66B7460056E639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E47B5B91C66B7460056E639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E47B5BB1C66B7460056E639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E47B5C11C66BC770056E639 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3E47B5C41C66BC950056E639 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		3E47B5C61C66BCA10056E639 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		3E47B5C81C66BCAB0056E639 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		3E47B5CA1C66BCB50056E639 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3E623A8E1C8BAD70002ED8C1 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		3E623A901C8BC195002ED8C1 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		3E623A911C8BC195002ED8C1 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		3E623A941C8D4506002ED8C1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3EC324891C66C4FA001A631C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EC3248B1C66E114001A631C /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		3EC3248D1C66E11F001A631C /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		3EC3248F1C66E128001A631C /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +83,32 @@
 				3E47B5AF1C66B7460056E639 /* AppDelegate.swift */,
 				3E47B5B11C66B7460056E639 /* ViewController.swift */,
 				3E47B5B31C66B7460056E639 /* Main.storyboard */,
+				3E47B5C31C66BC7F0056E639 /* View Controllers */,
 				3E47B5B61C66B7460056E639 /* Assets.xcassets */,
 				3E47B5B81C66B7460056E639 /* LaunchScreen.storyboard */,
 				3E47B5BB1C66B7460056E639 /* Info.plist */,
 			);
 			path = Facebook;
+			sourceTree = "<group>";
+		};
+		3E47B5C31C66BC7F0056E639 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E623A901C8BC195002ED8C1 /* BaseTransition.swift */,
+				3E623A911C8BC195002ED8C1 /* FadeTransition.swift */,
+				3E623A8E1C8BAD70002ED8C1 /* PhotoViewController.swift */,
+				3E47B5C11C66BC770056E639 /* FeedViewController.swift */,
+				3EC3248B1C66E114001A631C /* StatusViewController.swift */,
+				3EC3248D1C66E11F001A631C /* PhotosViewController.swift */,
+				3E623A941C8D4506002ED8C1 /* Common.swift */,
+				3EC3248F1C66E128001A631C /* CheckInViewController.swift */,
+				3EC324891C66C4FA001A631C /* DetailViewController.swift */,
+				3E47B5C41C66BC950056E639 /* RequestsViewController.swift */,
+				3E47B5C61C66BCA10056E639 /* MessagesViewController.swift */,
+				3E47B5C81C66BCAB0056E639 /* NotificationsViewController.swift */,
+				3E47B5CA1C66BCB50056E639 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +183,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E47B5C71C66BCA10056E639 /* MessagesViewController.swift in Sources */,
 				3E47B5B21C66B7460056E639 /* ViewController.swift in Sources */,
+				3E47B5CB1C66BCB50056E639 /* SettingsViewController.swift in Sources */,
+				3E47B5C21C66BC770056E639 /* FeedViewController.swift in Sources */,
+				3E47B5C91C66BCAB0056E639 /* NotificationsViewController.swift in Sources */,
+				3E623A8F1C8BAD70002ED8C1 /* PhotoViewController.swift in Sources */,
+				3E47B5C51C66BC950056E639 /* RequestsViewController.swift in Sources */,
 				3E47B5B01C66B7460056E639 /* AppDelegate.swift in Sources */,
+				3E623A931C8BC195002ED8C1 /* FadeTransition.swift in Sources */,
+				3EC3248C1C66E114001A631C /* StatusViewController.swift in Sources */,
+				3EC3248A1C66C4FA001A631C /* DetailViewController.swift in Sources */,
+				3E623A921C8BC195002ED8C1 /* BaseTransition.swift in Sources */,
+				3EC324901C66E128001A631C /* CheckInViewController.swift in Sources */,
+				3E623A951C8D4506002ED8C1 /* Common.swift in Sources */,
+				3EC3248E1C66E11F001A631C /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +345,7 @@
 				3E47B5C01C66B7460056E639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
